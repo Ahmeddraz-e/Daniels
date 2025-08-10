@@ -347,7 +347,7 @@ p {
     height: 80%;
     bottom: -30px;
     left: -30px;
-    background: url('/imgs/dots.png') repeat;
+    background: url('../imgs/dots.png') repeat;
     z-index: -1;
 }
 
