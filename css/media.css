@@ -1,0 +1,32 @@
+    @media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+    }
+    @media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+    }
+    @media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+    }
+    
+    @media (max-width: 768px) {
+        .animated-text::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 40px;
+            animation: move 12s ease-in-out infinite;
+            white-space: nowrap;
+            -webkit-animation: move 12s ease-in-out infinite;
+    }
+    .header .caption h1 {
+
+    position: relative;
+    left: -30%;
+}
+}
