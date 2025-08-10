@@ -15,6 +15,9 @@
     }
     
     @media (max-width: 768px) {
+        .container {
+        width: 95%;
+    }
         .animated-text::after {
             content: '';
             position: absolute;
